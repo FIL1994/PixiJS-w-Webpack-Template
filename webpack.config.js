@@ -14,7 +14,7 @@ module.exports = {
     fs: 'empty'
   },
   module: {
-    loaders: [
+    rules: [
       {
         exclude: /node_modules/,
         loader: 'babel-loader',
